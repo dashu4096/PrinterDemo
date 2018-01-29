@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PrinterDemo</string>
+
+    <string name="printer_no_paper">No paper!</string>
+    <string name="printer_printing_success">printing success!</string>
+    <string name="printer_printing_failed">printing failed!</string>
+	<!-- pos sales slip tag -->
+    <string name="tag_title">POS SALES SLIP</string>
+    <string name="tag_page_header">MERCHANT STUB</string>
+    <string name="tag_page_footer">THANK YOU FOR CHOOSING</string>
+    <string name="tag_merchant_name">MERCHANT NAME</string>
+    <string name="tag_merchant_no">MERCHANT NO.</string>
+    <string name="tag_operator_no">OPERATOR NO.</string>
+    <string name="tag_terminal_no">TERMINAL NO.</string>
+    <string name="tag_issuer">ISSUER</string>
+    <string name="tag_acquirer">ACQUIRER</string>
+    <string name="tag_card_no">CARD NO.</string>
+    <string name="tag_txn_type">TXN. TYPE</string>
+    <string name="tag_batch_no">BATCH NO.</string>
+    <string name="tag_voucher_no">VOUCHER NO.</string>
+    <string name="tag_auth_no">AUTH. NO.</string>
+    <string name="tag_exp_date">EXP. DATE.</string>
+    <string name="tag_ref_no">REF NO.</string>
+    <string name="tag_date">DATE</string>
+    <string name="tag_amount">AMOUNT</string>
+    <string name="tag_total">TOTAL</string>
+    <string name="tag_reference">REFERENCE</string>
+    <string name="tag_cardholder_sign">CARDHOLDER SIGNATURE</string>
+    <string name="tag_phone">PHONE</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">打印Demo</string>
+
+    <string name="printer_no_paper">没有安装打印纸!</string>
+    <string name="printer_printing_success">打印成功!</string>
+    <string name="printer_printing_failed">打印失败!</string>
+
+	<!-- pos sales slip tag -->
+    <string name="tag_title">POS 签购单</string>
+    <string name="tag_page_header">商户存根联，请妥善保管</string>
+    <string name="tag_page_footer">谢谢惠顾，欢迎下次光临</string>
+    <string name="tag_merchant_name">商户名称</string>
+    <string name="tag_merchant_no">商户号</string>
+    <string name="tag_operator_no">操作员</string>
+    <string name="tag_terminal_no">终端号</string>
+    <string name="tag_issuer">发卡行</string>
+    <string name="tag_acquirer">收单行</string>
+    <string name="tag_card_no">卡号</string>
+    <string name="tag_txn_type">交易类型</string>
+    <string name="tag_batch_no">批次号</string>
+    <string name="tag_voucher_no">凭证号</string>
+    <string name="tag_auth_no">授权号</string>
+    <string name="tag_exp_date">有效期</string>
+    <string name="tag_ref_no">参考号</string>
+	<string name="tag_date">日期</string>
+    <string name="tag_amount">金额</string>
+    <string name="tag_total">总计</string>
+    <string name="tag_reference">备注</string>
+    <string name="tag_cardholder_sign">持卡人签名</string>
+    <string name="tag_phone">电话</string>
+</resources>

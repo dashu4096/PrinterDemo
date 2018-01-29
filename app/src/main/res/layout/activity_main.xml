@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.paydevice.printerdemo.MainActivity">
+
+    <Button
+        android:id="@+id/usb_btn"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onUsbBtnClick"
+        android:text="USB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/usb_spinner"
+        android:layout_width="600dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/usb_btn"
+        app:layout_constraintLeft_toRightOf="@+id/usb_btn" />
+
+    <Button
+        android:id="@+id/serial_btn"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="32dp"
+        android:onClick="onSerialBtnClick"
+        android:text="Serial"
+        app:layout_constraintLeft_toLeftOf="@+id/usb_btn"
+        app:layout_constraintTop_toBottomOf="@+id/usb_btn" />
+
+    <Spinner
+        android:id="@+id/serial_path"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/serial_btn"
+        app:layout_constraintStart_toEndOf="@+id/serial_btn" />
+
+    <Spinner
+        android:id="@+id/serial_speed"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/serial_path"
+        app:layout_constraintStart_toEndOf="@+id/serial_path" />
+
+</android.support.constraint.ConstraintLayout>
